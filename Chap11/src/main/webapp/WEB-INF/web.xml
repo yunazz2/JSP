@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- xmlns="http://xmlns.jcp.org/xml/ns/javaee" -->
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		 xmlns="http://Java.sun.com/xml/ns/j2ee" 
+		 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Chap11</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  
+  <!-- 지금 이 파일이 있는 이유는 Chap11 프로젝트 생성시 프로젝트명 Chap11 쓰고 바로 finish 누른게 아니라 next-next해서 마지막 창에 체크 박스 체크해서 이 파일이 생긴것임-->
+  <!-- 에러 페이지 설정 -->
+  <error-page>
+  	<error-code>500</error-code>
+  	<location>/error/500.jsp</location>
+  </error-page>
+  
+  <error-page>
+  	<error-code>404</error-code>
+  	<location>/error/404.jsp</location>
+  </error-page>
+  
+  <error-page>
+  	<exception-type>java.lang.Exception</exception-type>
+  	<location>/error/exception.jsp</location>
+  </error-page>
+  
+</web-app>
+
+
+
+
