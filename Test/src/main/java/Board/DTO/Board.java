@@ -2,7 +2,7 @@ package Board.DTO;
 
 import java.io.Serializable;
 
-public class board implements Serializable {
+public class Board implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	private Integer boardNo;
@@ -15,10 +15,9 @@ public class board implements Serializable {
 	
 	
 	// 기본 생성자
-	public board() {
+	public Board() {
 		
 	}
-
 
 	
 	// getter, setter

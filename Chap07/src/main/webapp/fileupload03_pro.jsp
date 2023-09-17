@@ -6,7 +6,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%
-	String path = "D:\\LYN\\UPLOAD";
+	String path = "C:\\LYN\\UPLOAD";
 
 	DiskFileUpload upload = new DiskFileUpload();
 	

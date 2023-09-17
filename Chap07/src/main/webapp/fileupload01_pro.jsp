@@ -7,7 +7,7 @@
 <%
 	// 클라이언트에서 서버로 요청한 파일을 다루는 클래스
 	// MultipartRequest(request, 저장경로, 파일 최대크기, 인코딩타입, 파일명 정책 객체)
-	String filePath = "D:\\LYN\\UPLOAD";   
+	String filePath = "C:\\LYN\\UPLOAD";   
 	int maxSize = 10 * 1024 * 1024;			// 10MB 
 	DefaultFileRenamePolicy policy = new DefaultFileRenamePolicy();
 	

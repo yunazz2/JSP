@@ -12,7 +12,7 @@
 
 	// [NEW] - 파일 업로드 추가 
 	// String path = "E:\\TJE\\UPLOAD";
-	String path = "D:\\LYN\\JSP\\Chap07\\src\\main\\webapp\\static\\img";
+	String path = "C:\\LYN\\JSP\\Chap07\\src\\main\\webapp\\static\\img";
 	
 	DiskFileUpload upload = new DiskFileUpload();
 	

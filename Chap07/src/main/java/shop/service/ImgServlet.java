@@ -44,7 +44,7 @@ public class ImgServlet extends HttpServlet {
 		
 		// 상품 이미지가 없을 때, 기본 이미지로 응답
 		if( file == null || file.equals("") ) {
-			file = "D:\\LYN\\JSP\\Chap07\\src\\main\\webapp\\static\\img\\no-image.jpg";
+			file = "C:\\LYN\\JSP\\Chap07\\src\\main\\webapp\\static\\img\\no-image.jpg";
 		}
 		
 		String ext = file.substring( file.lastIndexOf(".") + 1 ).toUpperCase();

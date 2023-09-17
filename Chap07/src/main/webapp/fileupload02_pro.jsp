@@ -6,7 +6,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%
-	String fileUploadPath = "D:\\LYN\\UPLOAD";
+	String fileUploadPath = "C:\\LYN\\UPLOAD";
 	
 	// commons-fileupload에서 파일 업로드 기능을 가진 객체 DistFileUpload 생성
 	DiskFileUpload upload = new DiskFileUpload();
